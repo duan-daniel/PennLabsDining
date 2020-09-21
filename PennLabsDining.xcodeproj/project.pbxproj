@@ -19,6 +19,7 @@
 		A430E30A25188C9B00872210 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430E30925188C9B00872210 /* HeaderTableViewCell.swift */; };
 		A430E31225188CBC00872210 /* VenueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430E31125188CBC00872210 /* VenueTableViewCell.swift */; };
 		A4E5BEF5251928CD000EB697 /* VenueData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5BEF4251928CD000EB697 /* VenueData.swift */; };
+		A4E5BEFE251960F9000EB697 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5BEFD251960F9000EB697 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		A430E30925188C9B00872210 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
 		A430E31125188CBC00872210 /* VenueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueTableViewCell.swift; sourceTree = "<group>"; };
 		A4E5BEF4251928CD000EB697 /* VenueData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueData.swift; sourceTree = "<group>"; };
+		A4E5BEFD251960F9000EB697 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		A430E2C72518889D00872210 /* PennLabsDining */ = {
 			isa = PBXGroup;
 			children = (
+				A4E5BEFC251960EB000EB697 /* Extensions */,
 				A43011FB2518960D003A3DB1 /* Model */,
 				A430E30825188C8A00872210 /* Views */,
 				A430E2FF251888BA00872210 /* Storyboards */,
@@ -170,6 +173,14 @@
 				A430E31125188CBC00872210 /* VenueTableViewCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A4E5BEFC251960EB000EB697 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A4E5BEFD251960F9000EB697 /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +316,7 @@
 				A430E30A25188C9B00872210 /* HeaderTableViewCell.swift in Sources */,
 				A43011FD25189619003A3DB1 /* Venue.swift in Sources */,
 				A430E304251888D700872210 /* DiningTableTableViewController.swift in Sources */,
+				A4E5BEFE251960F9000EB697 /* Extensions.swift in Sources */,
 				A430E2C92518889D00872210 /* AppDelegate.swift in Sources */,
 				A430E31225188CBC00872210 /* VenueTableViewCell.swift in Sources */,
 				A430E2CB2518889D00872210 /* SceneDelegate.swift in Sources */,
