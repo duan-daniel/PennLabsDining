@@ -238,17 +238,19 @@ class DiningTableTableViewController: UITableViewController {
             cell.venueNameLabel.text = venue.name
             cell.venueStatusLabel.text = venue.status
             cell.venueHoursLabel.text = venue.hours
+            // see Extensions.swift for asynchronously updating the images
+            cell.imageOfVenue.load(urlString: venue.imageURL)
         }
         else {
             let venue = retailArray[indexPath.row]
             cell.venueNameLabel.text = venue.name
             cell.venueStatusLabel.text = venue.status
             cell.venueHoursLabel.text = venue.hours
+            cell.imageOfVenue.load(urlString: venue.imageURL)
         }
-    
+        
         return cell
     }
-    
 
     /*
     // Override to support conditional editing of the table view.
